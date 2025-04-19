@@ -1,4 +1,6 @@
-# regex-simplifier
+<div align="center">
+
+# Regex Simplifier
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Made with TypeScript](https://img.shields.io/badge/Made%20with-TypeScript-007acc)
@@ -7,6 +9,8 @@
 ![Platform](https://img.shields.io/badge/platform-node%20%7C%20browser-brightgreen)
 
 [Live Documentation](https://the-node-forge.github.io/regex-simplifier/)
+
+</div>
 
 A tiny utility that helps you **understand**, **build**, and **test** regular
 expressions using clean, readable code.
