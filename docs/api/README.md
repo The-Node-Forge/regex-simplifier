@@ -1,6 +1,6 @@
 **@the-node-forge/regex-simplifier**
 
----
+***
 
 <div align="center">
 
