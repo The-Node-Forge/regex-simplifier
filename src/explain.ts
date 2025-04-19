@@ -1,4 +1,4 @@
-export function explain(pattern: string | RegExp): string {
+export function explain (pattern: string | RegExp): string {
     const regex = typeof pattern === 'string' ? new RegExp(pattern) : pattern;
     const source = regex.source;
 
@@ -17,7 +17,7 @@ export function explain(pattern: string | RegExp): string {
 
     const parts = explanations
         .filter(([regexMatch]) => regexMatch.test(source))
-        .map(([_, meaning]) => `- ${meaning}`);
+        .map(([, meaning]) => `- ${meaning}`);
 
     return parts.length > 0
         ? `This pattern includes:\n${parts.join("\n")}`
