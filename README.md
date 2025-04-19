@@ -12,6 +12,11 @@
 
 </div>
 
+A tiny utility that helps you **understand**, **build**, and **test** regular
+expressions using clean, readable code.
+
+---
+
 ## ✨ Features
 
 - 🧠 `explain(regex)` — Converts regex into plain English
@@ -23,7 +28,7 @@
 ## 📦 Installation
 
 ```bash
-npm install regex-simplifier
+npm install @the-node-forge/regex-simplifier
 ```
 
 ---
@@ -31,7 +36,7 @@ npm install regex-simplifier
 ## 🚀 Usage
 
 ```ts
-import { build, test, explain } from 'regex-simplifier';
+import { build, test, explain } from '@the-node-forge/regex-simplifier';
 
 // Build common patterns
 const emailRegex = build('email');

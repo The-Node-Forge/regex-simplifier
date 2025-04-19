@@ -1,6 +1,6 @@
 [**@the-node-forge/regex-simplifier**](README.md)
 
----
+***
 
 # @the-node-forge/regex-simplifier
 
