@@ -1,8 +1,8 @@
 {
-  "name": "@the-node-forge/my-npm-package",
+  "name": "@the-node-forge/regex-simplifier",
   "version": "1.0.0",
-  "description": "A fully-configured TypeScript NPM package template with built-in CI/CD, automated tests, ESLint, Prettier, and Docusaurus documentation. Get started quickly with best practices for package development",
-  "main": "src/index.ts",
+  "description": "A tiny utility that helps you understand, build, and test regular expressions using clean, readable code.",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
@@ -22,16 +22,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/The-Node-Forge/npm-template"
+    "url": "https://github.com/The-Node-Forge/regex-simplifier"
   },
   "keywords": [
-    "express",
+    "regex",
+    "regular expression",
+    "regex parser",
+    "regex builder",
+    "regex tester",
+    "regex explain",
     "typescript",
-    "npm-package"
+    "javascript",
+    "validation",
+    "npm-package",
+    "developer-tool",
+    "pattern matching",
+    "string validation",
+    "regex simplifier"
   ],
   "author": {
-    "name": "your name",
-    "url": "https://github.com/your-name"
+    "name": "Andrew Gomez",
+    "url": "https://github.com/andrewgomez1992"
   },
   "license": "MIT",
   "files": [
@@ -52,6 +63,7 @@
     "eslint-plugin-prettier": "^5.2.3",
     "globals": "^15.14.0",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.4.2",
     "ts-jest": "^29.2.5",
     "typedoc": "^0.27.6",

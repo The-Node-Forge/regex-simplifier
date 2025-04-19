@@ -12,7 +12,7 @@ sidebar_position: 2
 ### Installation Steps
 
 ```sh
-npm install package-name
+npm install @the-node-forge/regex-simplifier
 ```
 
 For more details, see [USAGE.md](USAGE.md).

@@ -1,9 +1,15 @@
-[**@the-node-forge/my-npm-package**](README.md)
+[**@the-node-forge/regex-simplifier**](README.md)
 
----
+***
 
-# @the-node-forge/my-npm-package
+# @the-node-forge/regex-simplifier
+
+## Variables
+
+- [default](variables/default.md)
 
 ## Functions
 
-- [greet](functions/greet.md)
+- [build](functions/build.md)
+- [explain](functions/explain.md)
+- [test](functions/test.md)
