@@ -1,6 +1,6 @@
 [**@the-node-forge/regex-simplifier**](../README.md)
 
-***
+---
 
 [@the-node-forge/regex-simplifier](../globals.md) / default
 
@@ -8,7 +8,8 @@
 
 > **default**: `object`
 
-Defined in: [index.ts:7](https://github.com/The-Node-Forge/regex-simplifier/blob/3f7b08bd95f2a312f0339c9df8f9ec45c2d1bdc8/src/index.ts#L7)
+Defined in:
+[index.ts:7](https://github.com/The-Node-Forge/regex-simplifier/blob/3f7b08bd95f2a312f0339c9df8f9ec45c2d1bdc8/src/index.ts#L7)
 
 ## Type declaration
 
