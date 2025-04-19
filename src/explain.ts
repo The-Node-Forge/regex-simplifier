@@ -6,7 +6,7 @@ export const explain = (pattern: string | RegExp): string => {
     [/^\^/, 'Starts with'],
     [/\$$/, 'Ends with'],
     [/\.\*/, 'any number of any character'],
-    [/\d\{5\}/, 'exactly five digits'],
+    [/\\d\{5\}/, 'exactly five digits'],
     [/\\d/, 'a digit'],
     [/\\w/, 'a word character (a-z, A-Z, 0-9, _)'],
     [/\\s/, 'a whitespace character'],
