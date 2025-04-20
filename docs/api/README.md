@@ -1,6 +1,6 @@
 **@the-node-forge/regex-simplifier**
 
----
+***
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Made with TypeScript](https://img.shields.io/badge/Made%20with-TypeScript-007acc)
-[![NPM Version](https://img.shields.io/npm/v/regex-simplifier)](https://www.npmjs.com/package/regex-simplifier)
+[![NPM Version](https://img.shields.io/npm/v/@the-node-forge/regex-simplifier)](https://www.npmjs.com/package/@the-node-forge/regex-simplifier)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/the-node-forge/regex-simplifier/ci.yaml?branch=main)](https://github.com/The-Node-Forge/regex-simplifier/actions)
 ![Platform](https://img.shields.io/badge/platform-node%20%7C%20browser-brightgreen)
 

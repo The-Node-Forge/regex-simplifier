@@ -1,6 +1,6 @@
 [**@the-node-forge/regex-simplifier**](README.md)
 
----
+***
 
 # @the-node-forge/regex-simplifier
 
@@ -10,7 +10,7 @@
 
 Re-exports [explain](variables/default.md#explain)
 
----
+***
 
 ### test
 
