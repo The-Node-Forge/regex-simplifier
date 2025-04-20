@@ -1,8 +1,20 @@
 [**@the-node-forge/regex-simplifier**](README.md)
 
----
+***
 
 # @the-node-forge/regex-simplifier
+
+## References
+
+### explain
+
+Re-exports [explain](variables/default.md#explain)
+
+***
+
+### test
+
+Re-exports [test](variables/default.md#test)
 
 ## Variables
 
@@ -11,5 +23,3 @@
 ## Functions
 
 - [build](functions/build.md)
-- [explain](functions/explain.md)
-- [test](functions/test.md)

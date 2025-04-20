@@ -1,9 +1,8 @@
-import { patternRegistry } from './patterns';
+import { patterns, PatternDef } from './helpers/patterns';
 
 export const build = (name: string): RegExp => {
   const key = name.toLowerCase();
-  if (!patternRegistry[key]) {
-    throw new Error(`Unknown pattern name: "${name}"`);
-  }
-  return patternRegistry[key];
+  const def: PatternDef | undefined = patterns.find((p) => p.name === key);
+  if (!def) throw new Error(`Unknown pattern name: "${name}"`);
+  return def.regex;
 };

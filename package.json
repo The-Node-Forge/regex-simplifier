@@ -31,6 +31,9 @@
     "regex builder",
     "regex tester",
     "regex explain",
+    "test regex",
+    "build regex",
+    "explain regex",
     "typescript",
     "javascript",
     "validation",
@@ -38,7 +41,12 @@
     "developer-tool",
     "pattern matching",
     "string validation",
-    "regex simplifier"
+    "regex simplifier",
+    "simple regex",
+    "best regex",
+    "node forge",
+    "the node forge",
+    "node-forge"
   ],
   "author": {
     "name": "Andrew Gomez",

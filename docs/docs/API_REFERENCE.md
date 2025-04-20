@@ -4,19 +4,23 @@ description: API parameters, returns, examples.
 sidebar_position: 4
 ---
 
-### `build(name: string): RegExp`
+# 📘 API Reference
+
+## `build(name: string): RegExp`
 
 Returns a regular expression based on a predefined pattern name.
 
-**Parameters:**
+### Parameters
 
-- `name` — `string` — Name of the pattern (e.g. "email", "url")
+- `name` — `string`  
+  The name of the pattern (e.g. "email", "url", "uuid")
 
-**Returns:**
+### Returns
 
-- `RegExp` — The corresponding regular expression
+- `RegExp`  
+  The corresponding regular expression
 
-**Example:**
+### Example
 
 ```ts
 const emailRegex = build('email');
@@ -25,20 +29,23 @@ console.log(emailRegex.test('me@example.com')); // true
 
 ---
 
-### `test(value: string, pattern: string | RegExp): boolean`
+## `test(value: string, pattern: string | RegExp): boolean`
 
-Tests a string against either a predefined pattern name or a raw RegExp.
+Tests a string against either a predefined pattern name or a raw `RegExp`.
 
-**Parameters:**
+### Parameters
 
-- `value` — `string` — The string to test
-- `pattern` — `string | RegExp` — A predefined pattern name or a regular expression
+- `value` — `string`  
+  The string to test
+- `pattern` — `string | RegExp`  
+  A named pattern or a raw regular expression
 
-**Returns:**
+### Returns
 
-- `boolean` — `true` if the string matches, `false` otherwise
+- `boolean`  
+  `true` if the string matches the pattern; otherwise `false`
 
-**Example:**
+### Example
 
 ```ts
 console.log(test('12345', 'zip')); // true
@@ -47,24 +54,28 @@ console.log(test('invalid', 'email')); // false
 
 ---
 
-### `explain(pattern: string | RegExp): string`
+## `explain(pattern: string | RegExp): string`
 
-Returns a plain-English explanation of what a regular expression does.
+Returns a plain-English explanation of a regular expression.
 
-**Parameters:**
+### Parameters
 
-- `pattern` — `string | RegExp` — The pattern to explain
+- `pattern` — `string | RegExp`  
+  The regular expression to explain
 
-**Returns:**
+### Returns
 
-- `string` — Human-readable explanation of the regex
+- `string`  
+  A readable description of the regex pattern
 
-**Example:**
+### Example
 
 ```ts
 console.log(explain(/^\d{5}$/));
-// This pattern includes:
-// - Starts with
-// - exactly five digits
-// - Ends with
+/*
+This pattern includes:
+- Starts with
+- exactly five digits
+- Ends with
+*/
 ```

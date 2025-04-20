@@ -27,11 +27,22 @@ readability and simplicity matter.
 - [API Reference](./API_REFERENCE.md)
 - [Changelog](./CHANGELOG.md)
 
-## 📜 Community & Policies
+## 🧑‍💻 Contributing & Community
 
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Contributing Guidelines](https://github.com/The-Node-Forge/regex-simplifier/blob/main/CONTRIBUTING.md)
+- [Discussions](https://github.com/The-Node-Forge/regex-simplifier/discussions)
+
+## 🔗 Project Links
+
+- 📦 [NPM Package](https://www.npmjs.com/package/@the-node-forge/regex-simplifier)
+- 📖 [Live Docs](https://the-node-forge.github.io/regex-simplifier/)
+- ⭐ [Star on GitHub](https://github.com/The-Node-Forge/regex-simplifier)
+- 🏠 [The-Node-Forge Org](https://github.com/The-Node-Forge)
 
 ---
 
-Need help or want to contribute? Check out our
-[Discussions](https://github.com/The-Node-Forge/regex-simplifier/discussions).
+Need help or want to contribute? Open a
+[discussion](https://github.com/The-Node-Forge/regex-simplifier/discussions) or check
+the [issues](https://github.com/The-Node-Forge/regex-simplifier/issues) to get
+started.

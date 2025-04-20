@@ -1,6 +1,6 @@
 import { build } from './build';
 
-export const test = (value: string, pattern: string | RegExp): boolean => {
-  const regex = typeof pattern === 'string' ? build(pattern) : pattern;
-  return regex.test(value);
-};
+export function test(value: string, pattern: string | RegExp): boolean {
+  const re = typeof pattern === 'string' ? build(pattern) : pattern;
+  return re.test(value);
+}
