@@ -1,6 +1,6 @@
 {
   "name": "@the-node-forge/regex-simplifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny utility that helps you understand, build, and test regular expressions using clean, readable code.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
